@@ -13,6 +13,31 @@
 #### 单元测试
 > python test_app.py
 
+### 测试报告
+```javascript
+test_edit_failed_by_token_exp (__main__.TestAdd) ... ok
+test_edit_success (__main__.TestAdd) ... ok
+test_index (__main__.TestAdd)
+test Hello world ... ok
+test_login_failed (__main__.TestAdd)
+登录失败 ... ok
+test_login_success (__main__.TestAdd)
+登录成功 ... ok
+test_register_failed_by_email (__main__.TestAdd)
+因邮箱格式错误导致注册失败 ... ok
+test_register_failed_by_lack (__main__.TestAdd)
+因缺少参数注册失败 ... ok
+test_register_failed_by_repeat (__main__.TestAdd)
+因已经存在导致注册失败 ... ok
+test_register_success (__main__.TestAdd)
+注册成功 ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 3.351s
+
+OK
+```
+
 #### 接口说明：
 
 #### 注册接口
