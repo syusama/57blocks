@@ -38,6 +38,7 @@ password | abcd1234 | Text | 是 | 密码
 {
     "state": "success"
 }
+```
 
 #### 接口URL
 > http://127.0.0.1:5000/login
