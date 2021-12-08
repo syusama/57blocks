@@ -40,15 +40,6 @@ password | abcd1234 | Text | 是 | 密码
 }
 ```
 
-#### 接口URL
-> http://127.0.0.1:5000/login
-
-#### 请求方式
-> POST
-
-#### Content-Type
-> form-data
-
 
 #### 登录接口
 #### 接口URL
